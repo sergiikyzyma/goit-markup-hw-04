@@ -59,6 +59,7 @@ footer
 .main_team
 {
     background-color: #2F303A;
+    /*background-image: url("./images/tlo1.png");*/
     color: white;
     font-size: 14pt;
     height: 600px;
@@ -112,6 +113,11 @@ footer
     align-items: center;
     padding-left: 215px;
 }
+.dream_team ul
+{
+    display: flex;
+    flex-direction: row;
+}
 .nav_menu a:hover, a:focus
 {
     color:  #2196F3;
@@ -152,14 +158,37 @@ footer
 {
     width: 270px;
 }
+.const_clients
+{
+    background-color: #FFFFFF;
+    color: #757575;
+    font-size: 14pt;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 215px;
+}
+.const_clients li
+{
+    margin-inline: 50px;
+}
+.team_address
+{
+    display: flex;
+    flex-direction: row;
+}
 .team_address h2
 {
     font-family: "Raleway";
     letter-spacing: 0.03em;
 }
-.team_address li
+.team_address >ul:first-child
 {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
 }
 #logo_1, #logo_3
 {
