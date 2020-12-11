@@ -92,6 +92,26 @@ footer
 {
     text-transform: uppercase;
 }
+.task_team div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #afb1b8;
+}
+.task_team svg
+{
+    width: 70px;
+    height: 70px;
+}
+.task_team_svg_1
+{
+    fill: #212121;
+}
+.task_team_svg_2
+{
+    fill: #2196f3;
+}
 .task_team_photo
 {
     background-color: #FFFFFF;
@@ -117,6 +137,7 @@ footer
 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .nav_menu a:hover, a:focus
 {
@@ -144,9 +165,12 @@ footer
 {
     width: 30px;
     height: 30px;
+}
+.header_contact
+{
     fill: black;
 }
-.nav_menu svg:hover, svg:focus
+.header_contact:hover, .header_contact:focus
 {
     fill: #2196f3;
 }
@@ -192,13 +216,16 @@ footer
 }
 .const_clients li
 {
+    width: 100px;
+    height: 100px;
     margin-inline: 50px;
+    border: 1px solid #afb1b8;
 }
 .const_clients svg
 {
     width: 70px;
     height: 70px;
-    fill: black;
+    fill: #afb1b8;
 }
 .const_clients svg:hover, svg:focus
 {
@@ -224,9 +251,16 @@ footer
 {
     width: 44px;
     height: 44px;
+}
+.contact_1
+{
     fill: black;
 }
-.team_address svg:hover, svg:focus
+.contact_2
+{
+    fill: white;
+}
+.contact_1:hover, .contact_1:focus
 {
     fill: #2196f3;
 }
