@@ -140,6 +140,16 @@ footer
 {
     padding-left: 215px;
 }
+.nav_menu svg
+{
+    width: 30px;
+    height: 30px;
+    fill: black;
+}
+.nav_menu svg:hover, svg:focus
+{
+    fill: #2196f3;
+}
 .order
 {
     background-color: #2196F3;
@@ -158,6 +168,16 @@ footer
 {
     width: 270px;
 }
+.dream_team svg
+{
+    width: 44px;
+    height: 44px;
+    fill: black;
+}
+.dream_team svg:hover, svg:focus
+{
+    fill: #2196f3;
+}
 .const_clients
 {
     background-color: #FFFFFF;
@@ -173,6 +193,16 @@ footer
 .const_clients li
 {
     margin-inline: 50px;
+}
+.const_clients svg
+{
+    width: 70px;
+    height: 70px;
+    fill: black;
+}
+.const_clients svg:hover, svg:focus
+{
+    fill: #2196f3;
 }
 .team_address
 {
@@ -195,6 +225,10 @@ footer
     width: 44px;
     height: 44px;
     fill: black;
+}
+.team_address svg:hover, svg:focus
+{
+    fill: #2196f3;
 }
 #logo_1, #logo_3
 {
