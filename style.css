@@ -97,7 +97,9 @@ footer
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #afb1b8;
+    border: 70px solid #afb1b8;
+    background-image: url("./images/icons/sprite.svg#antenna-1");
+    background-size: 70px;
 }
 .task_team svg
 {
@@ -165,14 +167,7 @@ footer
 {
     width: 30px;
     height: 30px;
-}
-.header_contact
-{
-    fill: black;
-}
-.header_contact:hover, .header_contact:focus
-{
-    fill: #2196f3;
+    fill: currentColor;
 }
 .order
 {
